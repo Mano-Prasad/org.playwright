@@ -29,7 +29,7 @@ public class WebDriverUniversity {
 		
 		page.locator("//input[@value='SUBMIT']").click();
 		
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		
 		String text = page.locator("//h1[contains(text(),'Thank You')]").innerText();
 		
