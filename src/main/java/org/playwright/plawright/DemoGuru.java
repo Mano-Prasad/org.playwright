@@ -58,9 +58,11 @@ public class DemoGuru {
 		System.out.println(registered);
 		
 		 page.close();
+		 bw.close();
+
 		 pw.close();
 		
-		
+
 		
 	}
 
